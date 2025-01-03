@@ -1,44 +1,55 @@
-*This repository acts as a template for all of Oracle’s GitHub repositories. It contains information about the guidelines for those repositories. All files and sections contained in this template are mandatory, and a GitHub app ensures alignment with these guidelines. To get started with a new repository, replace the italic paragraphs with the respective text for your project.*
+# The OCI OpenSearch Service Code Samples
 
-# Project name
+The OCI OpenSearch Service  has created this  public-facing repository to share sample codes with our customers, particularly for major releases. This presents an opportunity to better engage with our users and streamline adoption.
 
-*Describe your project's features, functionality and target audience*
+Over the past year, we have achieved remarkable milestones with the release of several key AI/ML and observability features that align with the industry's growing focus on Large Language Models (LLMs) and Retrieval Augmented Generation (RAG). Highlights of these releases include:
 
-## Installation
+KNN Plugin: Enabling semantic and hybrid search with support for various search engines such as Lucene, Faiss, and nmslib.
+Ingestion Pipelines: Automating the generation of document embeddings during ingestion.
+Pretrained Model Support: Seamlessly registering and deploying pretrained embedding models by simply specifying the model name.
+BYOM (Bring Your Own Model): Allowing users to register and load custom pretrained models from an Object Storage Bucket.
+GenAI Connector: Providing access to hosted LLM models for chat, embeddings, text completion, and summarization, with support for dedicated model endpoints.
+Data Science Connector: Extending access to a wider range of LLM models vetted by the Oracle Data Science Team, with enhanced control over deploying and hosting traditional ML, CV, and LLM models.
+RAG and Conversational Search: Enabling users to perform RAG and conversational search by registering and deploying their LLM models in OpenSearch using GenAI or Data Science connectors.
+Data Prepper: Preparing for GA release to preprocess data from diverse sources for ingestion into OpenSearch.
+Automated RAG Pipeline: Simplifying the complexity of setting up RAG pipelines through a guided OpenSearch console tool, with auto-generated code available for download. 
+With the upcoming 2.15 version release, we are excited to introduce new features, including:
 
-*Provide detailed step-by-step installation instructions. You can name this section **How to Run** or **Getting Started** instead of **Installation** if that's more acceptable for your project*
+AI Agents
+Learn to Rank
+Dashboard Conversational Assistant Agent
+Automated Data Chunking
+Our Vision
+A major objective for our team is to address customer pain points, reduce adoption barriers, and accelerate the development of LLM-powered applications. To achieve this, we aim to:
+
+Share comprehensive code samples to reduce development overhead and costs.
+Promote new feature releases through engaging blog posts with accompanying code snippets.
+Establish a dedicated repository as the definitive resource for all current and future code samples.
+This repository will not only support our upcoming blog post and feature releases but also serve as a central hub for subsequent code contributions. By providing these resources, we anticipate a significant reduction in Jira tickets within our incident queue, ensuring a smoother and more efficient customer experience.
+
+Through this initiative, we aim to foster greater awareness of our service and empower customers to leverage the full potential of OCI OpenSearch¿s cutting-edge capabilities.
+
+# Code Samples In This Repository
+- [OpenSearch seemless integration with LangChain and GenAI Service Leveraging the Oracle Accelerate Data Science NoteBook](./opensearch-integration-with-langchain)
+    * Use Cases:
+        * Semantic Search 
+        * RAG/Conversational Search 
+
+
+ More Code Samples to come...
+
 
 ## Documentation
 
-*Developer-oriented documentation can be published on GitHub, but all product documentation must be published on <https://docs.oracle.com>*
+Check out the following resources for more information about the OCI OpenSearch Service:
 
-## Examples
+* [Create an OpenSearch Cluster](https://docs.oracle.com/en/learn/oci-opensearch/index.html#introduction)
+* [Create Tuneling to Connect to Your OpenSearch Cluster from Local MaChine](https://docs.oracle.com/en/learn/oci-opensearch/index.html#option-2-from-your-local-machine-through-port-forwarding)
+* [Semantic Searh with OpenSearch Documentation](https://docs.oracle.com/en-us/iaas/Content/search-opensearch/Concepts/semanticsearch.htm)
+* [How To Use OpenSearch Pre-trained Models](https://docs.oracle.com/en-us/iaas/Content/search-opensearch/Tasks/opensearchpretrainedmodelwalkthrough.htm)
+* [Bring Your Own Pre-trained Transformer Model using Object Storage Bucket](https://docs.oracle.com/en-us/iaas/Content/search-opensearch/Concepts/opensearchbyom.htm)
+* [OpenSearch Semantic Search Walk-through](https://docs.oracle.com/en-us/iaas/Content/search-opensearch/Tasks/semanticsearchwalkthrough.htm)
+* [OpenSearch conversational Search Walk-Through](https://docs.oracle.com/en-us/iaas/Content/search-opensearch/Concepts/ocigenaiconnector.htm)
+* [OpenSearch with Oracle Data Sience Connector](https://docs.oracle.com/en-us/iaas/Content/search-opensearch/Concepts/datascienceconnector.htm)
+* [Conversational Search Walk Trhough with OCI GenAI Connector](https://docs.oracle.com/en-us/iaas/Content/search-opensearch/Concepts/conversationalsearchwalkthrough.htm)
 
-*Describe any included examples or provide a link to a demo/tutorial*
-
-## Help
-
-*Inform users on where to get help or how to receive official support from Oracle (if applicable)*
-
-## Contributing
-
-*If your project has specific contribution requirements, update the CONTRIBUTING.md file to ensure those requirements are clearly explained*
-
-This project welcomes contributions from the community. Before submitting a pull request, please [review our contribution guide](./CONTRIBUTING.md)
-
-## Security
-
-Please consult the [security guide](./SECURITY.md) for our responsible security vulnerability disclosure process
-
-## License
-
-*The correct copyright notice format for both documentation and software is*
-    "Copyright (c) [year,] year Oracle and/or its affiliates."
-*You must include the year the content was first released (on any platform) and the most recent year in which it was revised*
-
-Copyright (c) 2023 Oracle and/or its affiliates.
-
-*Replace this statement if your project is not licensed under the UPL*
-
-Released under the Universal Permissive License v1.0 as shown at
-<https://oss.oracle.com/licenses/upl/>.
