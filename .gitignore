@@ -1,0 +1,15 @@
+# macOS system files
+.DS_Store
+
+# Prevent .gitkeep from being accidentally tracked
+.gitkeep
+
+# Other common binary files or temporary files to ignore
+*.log              # Log files
+*.tmp              # Temporary files
+*.bak              # Backup files
+*.swp              # Swap files (e.g., from Vim)
+*.swo              # Vim temporary files
+*.~*               # Files with a tilde at the end
+Thumbs.db          # Windows thumbnail cache
+.DS_Store          # macOS Finder metadata
