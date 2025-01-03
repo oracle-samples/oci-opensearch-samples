@@ -1,0 +1,47 @@
+Define tenancy datascience-tenancy as ocid1.tenancy.oc1..aaaaaaaax5hdic7ya6r5rxsgpifff4l6xdxzltnrncdzp3m75ubbvzqqzn3q
+Allow service datascience to use virtual-network-family in compartment YOUR-COMPARTMENT-NAME
+Allow group YOUR-DATA-SCIENCE-GROUP-NAME to manage data-science-family in compartment YOUR-COMPARTMENT-NAME
+Allow group YOUR-DATA-SCIENCE-GROUP-NAME to use virtual-network-family in compartment YOUR-COMPARTMENT-NAME
+Allow group YOUR-DATA-SCIENCE-GROUP-NAME to read metrics in compartment YOUR-COMPARTMENT-NAME
+Allow group YOUR-DATA-SCIENCE-GROUP-NAME to manage log-groups in compartment YOUR-COMPARTMENT-NAME
+Allow group YOUR-DATA-SCIENCE-GROUP-NAME to manage objects in compartment YOUR-COMPARTMENT-NAME
+Allow group YOUR-DATA-SCIENCE-GROUP-NAME to manage buckets in compartment YOUR-COMPARTMENT-NAME
+Allow group YOUR-DATA-SCIENCE-GROUP-NAME to use log-content in compartment YOUR-COMPARTMENT-NAME
+Allow group YOUR-DATA-SCIENCE-GROUP-NAME to use object-family in compartment YOUR-COMPARTMENT-NAME
+Allow dynamic-group YOU-DATASCIENCE-DYNAMIC-GROUP-NAME to manage data-science-family in compartment YOUR-COMPARTMENT-NAME
+Allow dynamic-group YOU-DATASCIENCE-DYNAMIC-GROUP-NAME to manage dataflow-family in compartment YOUR-COMPARTMENT-NAME
+Allow dynamic-group YOU-DATASCIENCE-DYNAMIC-GROUP-NAME to read compartments in tenancy
+Allow dynamic-group YOU-DATASCIENCE-DYNAMIC-GROUP-NAME to read users in tenancy
+Allow dynamic-group YOU-DATASCIENCE-DYNAMIC-GROUP-NAME to use log-content in compartment YOUR-COMPARTMENT-NAME
+Allow dynamic-group YOU-DATASCIENCE-DYNAMIC-GROUP-NAME to use log-groups in compartment YOUR-COMPARTMENT-NAME
+Allow dynamic-group YOU-DATASCIENCE-DYNAMIC-GROUP-NAME to manage object-family in compartment YOUR-COMPARTMENT-NAME
+Allow dynamic-group YOU-DATASCIENCE-DYNAMIC-GROUP-NAME to read virtual-network-family in compartment YOUR-COMPARTMENT-NAME
+Allow dynamic-group YOU-DATASCIENCE-DYNAMIC-GROUP-NAME to use object-family in compartment YOUR-COMPARTMENT-NAME
+Allow dynamic-group YOU-DATASCIENCE-DYNAMIC-GROUP-NAME to read repos in compartment YOUR-COMPARTMENT-NAME
+Endorse any-user to read data-science-models in tenancy datascience-tenancy  where ALL {target.compartment.name='service-managed-models'}
+Endorse any-user to inspect data-science-models in tenancy datascience-tenancy  where ALL {target.compartment.name='service-managed-models'}
+Endorse any-user to read object in tenancy datascience-tenancy  where ALL {target.compartment.name='service-managed-models', target.bucket.name='service-managed-models'}
+Allow dynamic-group YOUR-AQUA-DYNAMIC-GROUP to manage data-science-model-deployments in compartment YOUR-COMPARTMENT-NAME
+Allow dynamic-group YOUR-AQUA-DYNAMIC-GROUP to manage data-science-models in compartment YOUR-COMPARTMENT-NAME
+Allow dynamic-group YOUR-AQUA-DYNAMIC-GROUP to use logging-family in compartment YOUR-COMPARTMENT-NAME
+Allow dynamic-group YOUR-AQUA-DYNAMIC-GROUP to manage data-science-jobs in compartment YOUR-COMPARTMENT-NAME
+Allow dynamic-group YOUR-AQUA-DYNAMIC-GROUP to manage data-science-job-runs in compartment YOUR-COMPARTMENT-NAME
+Allow dynamic-group YOUR-AQUA-DYNAMIC-GROUP to use virtual-network-family in compartment YOUR-COMPARTMENT-NAME
+Allow dynamic-group YOUR-AQUA-DYNAMIC-GROUP to read resource-availability in compartment YOUR-COMPARTMENT-NAME
+Allow dynamic-group YOUR-AQUA-DYNAMIC-GROUP to manage data-science-projects in compartment YOUR-COMPARTMENT-NAME
+Allow dynamic-group YOUR-AQUA-DYNAMIC-GROUP to manage data-science-notebook-sessions in compartment YOUR-COMPARTMENT-NAME
+Allow dynamic-group YOUR-AQUA-DYNAMIC-GROUP to manage data-science-modelversionsets in compartment YOUR-COMPARTMENT-NAME
+Allow dynamic-group YOUR-AQUA-DYNAMIC-GROUP to read buckets in compartment YOUR-COMPARTMENT-NAME
+Allow dynamic-group YOUR-AQUA-DYNAMIC-GROUP to read objectstorage-namespaces in compartment YOUR-COMPARTMENT-NAME
+Allow dynamic-group YOUR-AQUA-DYNAMIC-GROUP to inspect compartments in tenancy
+Allow dynamic-group YOUR-AQUA-DYNAMIC-GROUP to manage object-family in compartment YOUR-COMPARTMENT-NAME where any {target.bucket.name='lk-ods-bucket'}
+Allow dynamic-group YOUR-DISTRIBUTED-TRAINING-JOB-RUNS to use logging-family in compartment YOUR-COMPARTMENT-NAME
+Allow dynamic-group YOUR-DISTRIBUTED-TRAINING-JOB-RUNS to manage data-science-models in compartment YOUR-COMPARTMENT-NAME
+Allow dynamic-group YOUR-DISTRIBUTED-TRAINING-JOB-RUNS to read data-science-jobs in compartment YOUR-COMPARTMENT-NAME
+Allow dynamic-group YOUR-DISTRIBUTED-TRAINING-JOB-RUNS to manage objects in compartment YOUR-COMPARTMENT-NAME where any {target.bucket.name='lk-ods-bucket'}
+Allow dynamic-group YOUR-DISTRIBUTED-TRAINING-JOB-RUNS to read buckets in compartment YOUR-COMPARTMENT-NAME where any {target.bucket.name='lk-ods-bucket'}
+ALLOW ANY-USER to manage object-family in tenancy WHERE ALL {request.principal.type='opensearchcluster', request.resource.compartment.id='<YOUR-COMPARTMENT-OCID>'}
+ALLOW ANY-USER to manage generative-ai-family in tenancy WHERE ALL {request.principal.type='opensearchcluster', request.resource.compartment.id='<YOUR-COMPARTMENT-OCID>'}
+Allow group YOUR-DATA-SCIENCE-GROUP-NAME to manage data-science-models in compartment YOUR-COMPARTMENT-NAME
+Allow group YOUR-DATA-SCIENCE-GROUP-NAME to manage data-science-model-deployments in compartment YOUR-COMPARTMENT-NAME
+
