@@ -4,30 +4,37 @@ The OCI OpenSearch Service  has created this  public-facing repository to share 
 
 Over the past year, we have achieved remarkable milestones with the release of several key AI/ML and observability features that align with the industry's growing focus on Large Language Models (LLMs) and Retrieval Augmented Generation (RAG). Highlights of these releases include:
 
-KNN Plugin: Enabling semantic and hybrid search with support for various search engines such as Lucene, Faiss, and nmslib.
-Ingestion Pipelines: Automating the generation of document embeddings during ingestion.
-Pretrained Model Support: Seamlessly registering and deploying pretrained embedding models by simply specifying the model name.
-BYOM (Bring Your Own Model): Allowing users to register and load custom pretrained models from an Object Storage Bucket.
-GenAI Connector: Providing access to hosted LLM models for chat, embeddings, text completion, and summarization, with support for dedicated model endpoints.
-Data Science Connector: Extending access to a wider range of LLM models vetted by the Oracle Data Science Team, with enhanced control over deploying and hosting traditional ML, CV, and LLM models.
-RAG and Conversational Search: Enabling users to perform RAG and conversational search by registering and deploying their LLM models in OpenSearch using GenAI or Data Science connectors.
-Data Prepper: Preparing for GA release to preprocess data from diverse sources for ingestion into OpenSearch.
-Automated RAG Pipeline: Simplifying the complexity of setting up RAG pipelines through a guided OpenSearch console tool, with auto-generated code available for download. 
+* **KNN Plugin**: Enabling semantic and hybrid search with support for various search engines such as Lucene, Faiss, and nmslib.
+* **Ingestion Pipelines**: Automating the generation of document embeddings during ingestion.
+* **Pretrained Model Support**: Seamlessly registering and deploying pretrained embedding models by simply specifying the model name.
+* **BYOM (Bring Your Own Model)**: Allowing users to register and load custom pretrained models from an Object Storage Bucket.
+* **GenAI Connector**: Providing access to hosted LLM models for chat, embeddings, text completion, and summarization, with support for dedicated model endpoints.
+* **Data Science Connector**: Extending access to a wider range of LLM models vetted by the Oracle Data Science Team, with enhanced control over deploying and hosting traditional ML, CV, and LLM models.
+* **RAG and Conversational Search**: Enabling users to perform RAG and conversational search by registering and deploying their LLM models in OpenSearch using GenAI or Data Science connectors.
+* **Data Prepper**: Preparing for GA release to preprocess data from diverse sources for ingestion into OpenSearch.
+* **Automated RAG Pipeline**: Simplifying the complexity of setting up RAG pipelines through a guided OpenSearch console tool, with auto-generated code available for download. 
+
+<br><br>
+
 With the upcoming 2.15 version release, we are excited to introduce new features, including:
 
-AI Agents
-Learn to Rank
-Dashboard Conversational Assistant Agent
-Automated Data Chunking
-Our Vision
+* AI Agents
+* Learn to Rank (LTR)
+* Dashboard Conversational Assistant Agent
+* Automated Data Chunking
+
+<br><br>
+# Our Vision
 A major objective for our team is to address customer pain points, reduce adoption barriers, and accelerate the development of LLM-powered applications. To achieve this, we aim to:
 
-Share comprehensive code samples to reduce development overhead and costs.
-Promote new feature releases through engaging blog posts with accompanying code snippets.
-Establish a dedicated repository as the definitive resource for all current and future code samples.
-This repository will not only support our upcoming blog post and feature releases but also serve as a central hub for subsequent code contributions. By providing these resources, we anticipate a significant reduction in Jira tickets within our incident queue, ensuring a smoother and more efficient customer experience.
+* Share comprehensive code samples to reduce development overhead and costs.
+* Promote new feature releases through engaging blog posts with accompanying code snippets.
+* Establish a dedicated repository as the definitive resource for all current and future code samples.
+* This repository will not only support our upcoming blog post and feature releases but also serve as a central hub for subsequent code contributions. By providing these resources, we anticipate a significant reduction in Jira tickets within our incident queue, ensuring a smoother and more efficient customer experience.
 
 Through this initiative, we aim to foster greater awareness of our service and empower customers to leverage the full potential of OCI OpenSearch¿s cutting-edge capabilities.
+
+<br><br>
 
 # Code Samples In This Repository
 - [OpenSearch seemless integration with LangChain and GenAI Service Leveraging the Oracle Accelerate Data Science NoteBook](./opensearch-integration-with-langchain)
@@ -38,6 +45,7 @@ Through this initiative, we aim to foster greater awareness of our service and e
 
  More Code Samples to come...
 
+<br><br>
 
 ## Documentation
 
