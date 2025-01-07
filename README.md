@@ -1,4 +1,6 @@
-# The OCI OpenSearch Service Code Samples
+
+
+# OCI OpenSearch Service Code Samples
 
 The OCI OpenSearch Service  has created this  public-facing repository to share sample codes with our customers, particularly for major releases. This presents an opportunity to better engage with our users and streamline adoption.
 
@@ -23,8 +25,9 @@ With the upcoming 2.15 version release, we are excited to introduce new features
 * Dashboard Conversational Assistant Agent
 * Automated Data Chunking
 
-<br><br>
-# Our Vision
+<br>
+
+## Our Vision
 A major objective for our team is to address customer pain points, reduce adoption barriers, and accelerate the development of LLM-powered applications. To achieve this, we aim to:
 
 * Share comprehensive code samples to reduce development overhead and costs.
@@ -36,16 +39,33 @@ Through this initiative, we aim to foster greater awareness of our service and e
 
 <br><br>
 
-# Code Samples In This Repository
-- [OpenSearch seemless integration with LangChain and GenAI Service Leveraging the Oracle Accelerate Data Science NoteBook](./opensearch-integration-with-langchain)
-    * Use Cases:
+## Installation
+To get started, you can clone this repository with either one of the options below and navigate to the sub-folder that contains the use case of interest.
+
+* SSH:
+```shell
+git clone git@github.com:oracle-samples/oci-opensearch-samples.git
+``` 
+
+* HTTPS:
+```shell
+git clone https://github.com/oracle-samples/oci-opensearch-samples.git
+```
+
+
+<br><br>
+
+## Topics
+- [OpenSearch Seemless Integration with LangChain and GenAI Service Leveraging the Oracle Accelerate Data Science NoteBook](./opensearch-integration-with-langchain)
+    * **Use Cases**:
         * Semantic Search 
         * RAG/Conversational Search 
 
 
  More Code Samples to come...
 
-<br><br>
+
+<br>
 
 ## Documentation
 
@@ -60,4 +80,32 @@ Check out the following resources for more information about the OCI OpenSearch 
 * [OpenSearch conversational Search Walk-Through](https://docs.oracle.com/en-us/iaas/Content/search-opensearch/Concepts/ocigenaiconnector.htm)
 * [OpenSearch with Oracle Data Sience Connector](https://docs.oracle.com/en-us/iaas/Content/search-opensearch/Concepts/datascienceconnector.htm)
 * [Conversational Search Walk Trhough with OCI GenAI Connector](https://docs.oracle.com/en-us/iaas/Content/search-opensearch/Concepts/conversationalsearchwalkthrough.htm)
+
+<br>
+
+## Contributing
+This project welcomes contributions from the community. Before submitting a pull request, please [review our contribution guide](./CONTRIBUTING.md)
+
+<br>
+
+## Security
+Please consult the [security guide](./SECURITY.md) for our responsible security vulnerability disclosure process
+
+<br>
+
+## Help
+
+For help please create a GitHub [issue](https://github.com/oracle-samples/oci-opensearch-samples/issues). 
+Be sure to provide all the necessary details so we can help you faster. If facing bugs, please provide the steps followed and codes samples for reproducing the bugs. 
+
+<br>
+
+## License
+
+Copyright (c) 2024, 2025 Oracle and/or its affiliates.
+
+Released under the Universal Permissive License v1.0 as shown at
+<https://oss.oracle.com/licenses/upl/>.
+
+
 
