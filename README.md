@@ -105,7 +105,8 @@ Be sure to provide all the necessary details so we can help you faster. If facin
 Copyright (c) 2024, 2025 Oracle and/or its affiliates.
 
 Released under the Universal Permissive License v1.0 as shown at
-<https://oss.oracle.com/licenses/upl/>.
+<https://oss.oracle.com/licenses/upl/>. 
 
+[LICENSE](./LICENSE.txt)
 
 
