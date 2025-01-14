@@ -18,7 +18,7 @@ Over the past year, we have achieved remarkable milestones with the release of s
 
 <br><br>
 
-With the upcoming 2.15 version release, we are excited to introduce new features, including:
+With our latest **OpenSearch 2.15  GA release**, we are excited to introduce exciting new features, including:
 
 * AI Agents
 * Learn to Rank (LTR)
