@@ -18,7 +18,7 @@ Over the past year, we have achieved remarkable milestones with the release of s
 
 <br><br>
 
-With the upcoming 2.15 version release, we are excited to introduce new features, including:
+With our latest **OpenSearch 2.15  GA release**, we are excited to introduce exciting new features, including:
 
 * AI Agents
 * Learn to Rank (LTR)
@@ -73,7 +73,7 @@ Check out the following resources for more information about the OCI OpenSearch 
 
 * [Create an OpenSearch Cluster](https://docs.oracle.com/en/learn/oci-opensearch/index.html#introduction)
 * [Create Tuneling to Connect to Your OpenSearch Cluster from Local MaChine](https://docs.oracle.com/en/learn/oci-opensearch/index.html#option-2-from-your-local-machine-through-port-forwarding)
-* [Semantic Searh with OpenSearch Documentation](https://docs.oracle.com/en-us/iaas/Content/search-opensearch/Concepts/semanticsearch.htm)
+* [Semantic Search with OpenSearch Documentation](https://docs.oracle.com/en-us/iaas/Content/search-opensearch/Concepts/semanticsearch.htm)
 * [How To Use OpenSearch Pre-trained Models](https://docs.oracle.com/en-us/iaas/Content/search-opensearch/Tasks/opensearchpretrainedmodelwalkthrough.htm)
 * [Bring Your Own Pre-trained Transformer Model using Object Storage Bucket](https://docs.oracle.com/en-us/iaas/Content/search-opensearch/Concepts/opensearchbyom.htm)
 * [OpenSearch Semantic Search Walk-through](https://docs.oracle.com/en-us/iaas/Content/search-opensearch/Tasks/semanticsearchwalkthrough.htm)
