@@ -1,0 +1,53 @@
+processors:
+  batch: null
+
+receivers:
+  otlp:
+    protocols:
+      grpc:
+        endpoint: '0.0.0.0:4317'
+      http:
+        endpoint: '0.0.0.0:4318'
+
+exporters:
+  debug:
+    verbosity: detailed
+  otlp/data-prepper-traces:
+    endpoint: "0.0.0.0:21890"
+    tls:
+      insecure: true
+  otlp/data-prepper-metrics:
+    endpoint: "0.0.0.0:21891"
+    tls:
+      insecure: true
+  otlp/data-prepper-logs:
+    endpoint: "0.0.0.0:21892"
+    tls:
+      insecure: true
+
+service:
+  pipelines:
+    traces:
+      receivers:
+        - otlp
+      exporters:
+        - debug
+        - otlp/data-prepper-traces
+      processors:
+        - batch
+    metrics:
+      receivers:
+        - otlp
+      exporters:
+        - debug
+        - otlp/data-prepper-metrics
+      processors:
+        - batch
+    logs:
+      receivers:
+        - otlp
+      exporters:
+        - debug
+        - otlp/data-prepper-logs
+      processors:
+        - batch
