@@ -56,13 +56,14 @@ git clone https://github.com/oracle-samples/oci-opensearch-samples.git
 <br><br>
 
 ## Topics
-- [OpenSearch Seemless Integration with LangChain and GenAI Service Leveraging the Oracle Accelerate Data Science NoteBook](./opensearch-integration-with-langchain)
+- [OpenSearch Seamless Integration with LangChain and GenAI Service Leveraging the Oracle Accelerate Data Science NoteBook](./opensearch-integration-with-langchain)
     * **Use Cases**:
         * Semantic Search 
         * RAG/Conversational Search 
-
-
- More Code Samples to come...
+- [Observability (OpenTelemetry) data ingestion in OpenSearch using Spring Boot+Kafka client application](./observability-with-opensearch)
+   Spring Boot and Kafka based client app emits OpenTelemetry signals of traces, logs and metrics, using auto-instrumentation with OTel java agent. 
+   These signals are relayed to OpenSearch using OTel collector->Data prepper pipeline. The observability data in OpenSearch acts as rich source
+   for deep analytics using OpenSearch dashboard.
 
 
 <br>
