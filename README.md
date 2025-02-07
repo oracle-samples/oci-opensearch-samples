@@ -60,7 +60,7 @@ git clone https://github.com/oracle-samples/oci-opensearch-samples.git
     * **Use Cases**:
         * Semantic Search 
         * RAG/Conversational Search 
-- [Observability (OpenTelemetry) data ingestion in OpenSearch using Spring Boot+Kafka client application](./observability-with-opensearch)
+- [Observability (OpenTelemetry) data ingestion in OpenSearch using Spring Boot+Kafka client application](./observability-with-opensearch/open-telemetry/order-service-client-application)
    Spring Boot and Kafka based client app emits OpenTelemetry signals of traces, logs and metrics, using auto-instrumentation with OTel java agent. 
    These signals are relayed to OpenSearch using OTel collector->Data prepper pipeline. The observability data in OpenSearch acts as rich source
    for deep analytics using OpenSearch dashboard.
