@@ -20,10 +20,10 @@ Over the past year, we have achieved remarkable milestones with the release of s
 
 With our latest **OpenSearch 2.15  GA release**, we are excited to introduce exciting new features, including:
 
-* AI Agents
-* Learn to Rank (LTR)
-* Dashboard Conversational Assistant Agent
-* Automated Data Chunking
+* **AI Agents**
+* **Learn to Rank (LTR)**
+* **Dashboard Conversational Assistant Agent**
+* **Automated Data Chunking**
 
 <br>
 
@@ -64,6 +64,9 @@ git clone https://github.com/oracle-samples/oci-opensearch-samples.git
    Spring Boot and Kafka based client app emits OpenTelemetry signals of traces, logs and metrics, using auto-instrumentation with OTel java agent. 
    These signals are relayed to OpenSearch using OTel collector->Data prepper pipeline. The observability data in OpenSearch acts as rich source
    for deep analytics using OpenSearch dashboard.
+
+- [Visual/Multi-modal search with OCI OpenSearch ](./visual-search-with-opensearch/visual-search-pipeline.ipynb)
+    In this sample we showcase how you can leverage the capabilities of OCI OpenSeach and the power of state-of-the-art multimodal model, **CLIP (Contrastive Language-Image Pretraining)** to build an end-to-end enterprise grade solution for multi-modal/visual search. 
 
 
 <br>
